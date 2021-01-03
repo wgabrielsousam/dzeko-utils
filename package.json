@@ -1,0 +1,19 @@
+{
+  "name": "dzeko-utils",
+  "version": "0.0.4",
+  "description": "modules for those who worked with php and want to work in nodeJs",
+  "main": "index.js",
+  "keywords": [
+    "PHP TO NODE",
+    "PHP",
+    "CURL",
+    "REQUEST",
+    "utils",
+    "cpf"
+  ],
+  "author": "dzek0",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
