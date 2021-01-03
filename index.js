@@ -1,5 +1,6 @@
 const request = require('request')
 const fs = require('fs')
+//dzek0 e o terror
 
 module.exports = {
     // function for exploding strings
@@ -14,7 +15,7 @@ module.exports = {
         return new Promise(resolve => setTimeout(resolve, ms));
 
     },
-    // function async/await for famous Curl (for request in web or applications) 
+    // function async/await for famous Curl (for request in web or applications)
     curl(config) {
 
         return new Promise(resolve => request(config, (error, res, body) => resolve(body)));
